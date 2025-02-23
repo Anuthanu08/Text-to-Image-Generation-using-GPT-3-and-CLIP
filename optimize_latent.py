@@ -40,7 +40,6 @@ def main():
     clip_model, preprocess = load_clip_model()
     vqgan = load_vqgan_model()
     
-    # For demonstration, assume a dummy text embedding is passed. Replace with actual text features.
     # Typically, you would pass a text prompt through GPT-3 and then get text features using CLIP.
     dummy_text = "A futuristic cityscape at dusk with neon lights and flying cars"
     from models.clip_utils import get_text_embedding
